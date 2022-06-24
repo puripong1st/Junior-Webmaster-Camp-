@@ -1,0 +1,115 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+  }
+/* เมนู */
+.topnav {
+    overflow: hidden;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .topnav a.active {
+    background-color: #DAB9E6;
+    color: white;
+  } 
+  
+  /* จองคิว */
+  .buttonjumbotron {
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .button {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background: #fff;
+    color: #000;
+  }
+  /* ข้อความตรงกลาง */
+  .Anno {
+text-align: center;
+  }
+.menu-main { 
+    color: lightgray;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+    position: absolute;  
+    right: 100px;   
+    width: 300px;  
+}
+.menu-main .home 
+{ 
+    right: 500px;   
+}
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-circle1 {
+    border-radius: 50%;
+    padding: 43px 47px;
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+
+.img-circle2 {
+    border-radius: 50%;
+    padding: 43px 47px;
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+
+}
+.img-circle3 {
+    border-radius: 50%;
+    padding: 43px 47px;
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+
+}
+
+.text-main
+{
+    font-family: Mitr;
+    max-width: 1069px;
+    margin: 40px auto 20px;
+}
+
+.text-main .floating-image.right
+{
+    float:right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
